@@ -15,8 +15,9 @@ const main = async () => {
 
   const MetaMultiSigWallet = await deploy("MetaMultiSigWallet",[
     31337,
-    [ "0x834a9cc3D84941d9A9C80E334E0864A50C823E0C" ],
-    1
+//    [ "0x834a9cc3D84941d9A9C80E334E0864A50C823E0C" ],
+    [ "0xE1500d85f999EA4A249586244A57ca43B294Ff42" ],
+    2
   ])
 
 
